@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Clash Semi';
+    src: url(../font/ClashDisplay-Semibold.otf);
+}
+body {
+    font-family: sans-serif;
+}
+h2 {
+    font-family: 'Clash Semi';
+    color: #1A75BC;
+    font-weight: 600;
+}
+#otp__header {
+    font-family: 'Clash Semi';
+}
+#verify__btn {
+    font-family: 'Clash Semi';
+    background: #1A75BC;
+    color: white;
+    height: 3.5rem;
+    width: 91vw;
+    border-radius: 19px;
+}
+.otp__success-message {
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.otp__success-message.active {
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    display: inherit;
+}

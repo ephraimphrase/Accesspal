@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resident Home</title>
+     <!-- Normal CSS -->
+     <link rel="stylesheet" href="../css/resident-homepage.css">
+     <!-- Bootstrap CSS-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="p-3 pt-4">
+        <!-- Welcome section -->
+        <div class="d-flex justify-content-between">
+            <p id="hello" style="font-size: 24px; font-weight: 700;">Hello, <span id="resident-name">Jane</span><img src="../img/image 1.png" alt="waving hand"></p>
+            <img src="../img/Vector.png" alt="Notification bell" style="width: 30px; height: 30px;">
+        </div>
+        <p style="font-size: 12px; font-weight: 500;">Schedule your guests with few clicks.</p>
+        <div id="resident-card" class="d-flex mt-3 p-3 rounded">
+            <div style="width: 30%;" class="">
+                <img src="../img/Ellipse 146.png" alt="display picture" style="width: 100%;">
+            </div>
+            <div class="ps-3 text-start" style="width: 70%;">
+                <p id="resident-name" style="font-size: 18px;">Marge Simpson</p>
+                <p id="resident-code" style="font-size: 12px;">999073</p>
+                <p id="resident-title" style="font-size: 12px;">Resident Admin of House D30</p>
+            </div>
+        </div>
+        <!-- What's new -->
+        <div class="mt-5">
+            <p id="title" style="font-size: 20px; font-weight: 700;" class="mb-0">What’s New?</p>
+            <p style="font-size: 13px; font-weight: 400;">AccessPal restricts unwanted guests, and make residents feel safe again.</p>
+        </div>
+        <div class="d-flex mt-5">
+            <img src="../img/image 2.png" alt="Registration illustration" style="position: absolute; top: 400px;">
+            <div class="d-grid gap-2 ps-3" style="width: 100%;">
+                <button id="register-guest-btn" class="btn" type="button">Register a Guest</button>
+            </div>
+        </div>
+        <div class="d-flex mt-5">
+            <img src="../img/image 4.png" alt="Registration illustration" style="position: absolute; top: 510px;">
+            <div class="d-grid gap-2 ps-3" style="width: 100%;">
+                <button id="register-guest-btn" class="btn" type="button">Register an Event</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Navbar -->
+    <div id="navbar" class="d-flex justify-content-between p-3 position-fixed bottom-0">
+        <img src="../img/home.png" alt="Home option">
+        <img src="../img/list.png" alt="List option">
+        <img src="../img/call.png" alt="Call option">
+        <img src="../img/qr.png" alt="QR code option">
+        <img src="../img/settings.png" alt="Setings option">
+    </div>
+
+
+
+    <script src="../js/resident-homepage.js"></script>
+</body>
+</html>
