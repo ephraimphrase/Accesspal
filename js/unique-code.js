@@ -6,4 +6,5 @@ verifyBtn.addEventListener('click', () => {
     setTimeout(() => {
         otpSuccessMessage.classList.add('d-none');
     }, 2000);
+    otpSuccessMessage.classList.remove('d-none');
 })
