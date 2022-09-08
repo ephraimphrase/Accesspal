@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/registerGuest.css">
+    <title>registerGuest</title>
+</head>
+<body>
+    
+    <div class="container px-2 my-5">
+        <div class="row">
+            <a class="text-dark" href="#"><i class='bx bx-left-arrow-alt fs-1'></i></a>
+            <h3 class="default-color fw-bold">Register Guest</h3>
+            <p>Generate a code for your guest to gain access into the estate </p>
+        </div>
+        <form id="contactForm">
+            <div class="mb-4">
+                <label for="firstName" class="form-label fw-bold">First Name</label>
+                <input type="text" class="form-control container-fluid py-3" id="firstName"
+                    placeholder="Enter their first name">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="secondName" class="form-label fw-bold">Last Name</label>
+                <input type="text" class="form-control container-fluid py-3" id="secondName"
+                    placeholder="Enter their last name">
+            </div>
+            <div class="mb-4">
+                <label for="phoneNumber" class="form-label fw-bold">Phone Number</label>
+                <input type="tel" class="form-control container-fluid py-3" id="phoneNumber"
+                    placeholder="Enter their phone number">
+            </div>
+        </form>
+        <div class="">
+            <button class="btn btn-default-color btn-lg py-3 w-100" id="submitButton"
+                type="submit">Generate Code</button>
+        </div>
+
+
+    </div>
+    <div id="navbar" class="d-flex justify-content-between p-3 position-fixed bottom-0 ">
+        <i class='bx bxs-home-alt-2 fs-1 text-white text-opacity-50' ></i>
+        <i class='bx bx-copy-alt bx-flip-horizontal text-opacity-50 text-white fs-1' ></i>
+        <i class='bx bx-phone-call fs-1 text-white'></i>
+        <i class='bx bx-qr-scan fs-1 text-white text-opacity-50' ></i>
+        <i class='bx bx-cog fs-1 text-white text-opacity-50'></i>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
