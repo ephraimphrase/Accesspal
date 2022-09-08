@@ -15,7 +15,7 @@
     background-color: #1A75BC;
     /* height: 150px; */
 }
-#navbar {
+#navbar{
     background: #1A75BC;
     width: 100%;
 }
@@ -34,5 +34,4 @@ h2 {
 .callindiv p{
     color: #1A75BC;
     font-family: 'Clash semi';
-    
 }
