@@ -3,8 +3,8 @@
     src: url(../font/ClashDisplay-Semibold.otf);
 }
 
-*{
-    font: 'Clash Semi';
+h2{
+    font-family: 'Clash Semi';
 }
 
 .title{
