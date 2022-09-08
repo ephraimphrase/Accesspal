@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Clash Bold';
+    src: url(../font/ClashDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Clash Semi';
+    src: url(../font/ClashDisplay-Semibold.otf);
+}
+@font-face {
+    font-family: 'Clash light';
+    src: url(../font/ClashDisplay-Light.otf);
+}
+body {
+    font-family: sans-serif;
+}
+
+
+.default-color{
+    color: #1A75BC;
+}
+
+.btn-default-color{
+    background-color: #1A75BC;
+    color: white;
+    font-family: Clash Semi;
+}
+
+h4{
+    font-family: Clash Semi;
+}
+.form-label{
+    font-family: Clash Semi;
+}
