@@ -17,7 +17,7 @@ h1{
     color: #1A75BC;
 }
 
-h2{
+h3{
     font-family: 'Clash semi';
     color: #1A75BC;
 }
@@ -29,4 +29,9 @@ h2{
     background-color: #1A75BC;
     color: white;
     font-family: Clash Semi;
+}
+
+#navbar {
+    background: #1A75BC;
+    width: 100%;
 }
