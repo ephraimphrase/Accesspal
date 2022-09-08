@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Clash Bold';
+    src: url(../font/ClashDisplay-Bold.otf);
+}
+@font-face {
+    font-family: 'Clash Semi';
+    src: url(../font/ClashDisplay-Semibold.otf);
+}
+@font-face {
+    font-family: 'Clash light';
+    src: url(../font/ClashDisplay-Light.otf);
+}
+body {
+    font-family: sans-serif;
+}
+#hello {
+    font-family: 'Clash Bold';
+}
+#security-card {
+    background-color: #1A75BC;
+    color: white;
+}
+#security-name {
+    font-family: 'Clash Bold';
+}
+#security-code {
+    font-family: 'Clash light';
+}
+#security-title {
+    font-family: 'Clash light';
+}
+#title {
+    font-family: 'Clash Bold';
+}
+
+#confirm-guest-code-btn {
+    font-family: 'Clash Semi';
+    background: #1A75BC;
+    color: white;
+    height: 3.5rem;
+    width: 91vw;
+    border-radius: 19px;
+}
+#view-guest-history-btn {
+    font-family: 'Clash Semi';
+    background: white;
+    color: #1A75BC;
+    border: 1px solid #1A75BC;
+    height: 3.5rem;
+    width: 91vw;
+    border-radius: 19px;
+}
