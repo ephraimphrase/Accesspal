@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Clash Bold';
+    src: url(../font/ClashDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Clash Semi';
+    src: url(../font/ClashDisplay-Semibold.otf);
+}
+@font-face {
+    font-family: 'Clash light';
+    src: url(../font/ClashDisplay-Light.otf);
+}
+.topdiv{
+    background-color: #1A75BC;
+    /* height: 150px; */
+}
+#navbar{
+    background: #1A75BC;
+    width: 100%;
+}
+h2 {
+    font-family: 'Clash Semi';
+}
+.callnow{
+    /* width: 300px; */
+    /* padding: 15px; */
+    border-radius: 20px;
+    font-family: 'Clash semi';
+    color: #1A75BC;
+    border: 1px solid #1A75BC;
+
+}
+.callindiv p{
+    color: #1A75BC;
+    font-family: 'Clash semi';
+}

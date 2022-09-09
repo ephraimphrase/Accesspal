@@ -1,0 +1,31 @@
+.button{
+    background-color: #1A75BC;
+    font-family: 'Clash Semi';
+}
+
+@font-face {
+    font-family: 'Clash Bold';
+    src: url(../font/ClashDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Clash Semi';
+    src: url(../font/ClashDisplay-Semibold.otf);
+}
+@font-face {
+    font-family: 'Clash light';
+    src: url(../font/ClashDisplay-Light.otf);
+}
+
+h1{
+    font-family: 'Clash semi';
+    color: #1A75BC;
+}
+
+.label{
+    font-family: 'Clash Semi';
+}
+
+.form-check-input:checked{
+    background-color: black;
+}
