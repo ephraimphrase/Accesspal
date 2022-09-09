@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Clash Bold';
+    src: url(../font/ClashDisplay-Bold.otf);
+}
+@font-face {
+    font-family: 'Clash Semi';
+    src: url(../font/ClashDisplay-Semibold.otf);
+}
+@font-face {
+    font-family: 'Clash light';
+    src: url(../font/ClashDisplay-Light.otf);
+}
+
+h1{
+    font-family: 'Clash Bold';
+    color: #1A75BC;
+}
+
+.name{
+    font-family:"Clash Semi";
+}
