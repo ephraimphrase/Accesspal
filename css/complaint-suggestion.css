@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Clash Bold';
+    src: url(../font/ClashDisplay-Bold.otf);
+}
+@font-face {
+    font-family: 'Clash Semi';
+    src: url(../font/ClashDisplay-Semibold.otf);
+}
+@font-face {
+    font-family: 'Clash light';
+    src: url(../font/ClashDisplay-Light.otf);
+}
+body {
+    font-family: sans-serif;
+}
+h2 {
+    color: #1A75BC;
+    font-family: 'Clash Bold';
+}
+#complaint-card {
+    border: 3px solid #1A75BC;
+    border-radius: 10px;
+}
+#user-complaint-name {
+    font-family: 'Clash Bold';
+    color: #1A75BC;
+}
+#resident-home-number {
+    font-family: 'Clash light';
+    color: #1A75BC;
+    font-weight: bold;
+}
+#navbar {
+    background: #1A75BC;
+    width: 100%;
+}
