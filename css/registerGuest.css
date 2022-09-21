@@ -31,7 +31,7 @@ body {
     border-radius: 10px;
 }
 
-h3{
+h3,h1{
     font-family: 'Clash Semi';
 }
 .form-label{
