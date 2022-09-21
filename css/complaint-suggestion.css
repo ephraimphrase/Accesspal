@@ -13,30 +13,22 @@
 body {
     font-family: sans-serif;
 }
-#hello {
+h2 {
+    color: #1A75BC;
     font-family: 'Clash Bold';
 }
-#resident-card {
-    background-color: #1A75BC;
-    color: white;
+#complaint-card {
+    border: 3px solid #1A75BC;
+    border-radius: 10px;
 }
-#resident-name {
+#user-complaint-name {
     font-family: 'Clash Bold';
+    color: #1A75BC;
 }
-#resident-code {
+#resident-home-number {
     font-family: 'Clash light';
-}
-#resident-title {
-    font-family: 'Clash light';
-}
-#title {
-    font-family: 'Clash Bold';
-}
-#register-guest-btn {
-    font-family: 'Clash Semi';
-    background: #0099D0;
-    color: white;
-    border-radius: 30px;
+    color: #1A75BC;
+    font-weight: bold;
 }
 #navbar {
     background: #1A75BC;
