@@ -24,7 +24,7 @@ body {
 }
 
 .btn-default-color{
-    background-color: #1A75BC;
+    background-color: #1A75BC !important;
     color: white;
     font-family: Clash Semi;
 }
