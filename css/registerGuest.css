@@ -25,7 +25,7 @@ body {
 }
 
 .btn-default-color{
-    background-color: #1A75BC;
+    background-color: #1A75BC !important;
     color: white;
     font-family: 'Clash Semi';
     border-radius: 10px;
@@ -48,6 +48,6 @@ h3,h1{
 }
 #navbar {
     background: #1A75BC;
-     width: 100%; 
+    width: 100%; 
    
 }
