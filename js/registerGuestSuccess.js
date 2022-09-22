@@ -1,3 +1,3 @@
 setTimeout(function(){
-    window.location.href = '/html/guestcode1.html'
+    window.location.href = './guestcode1.html'
 }, 2000)
