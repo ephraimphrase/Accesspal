@@ -2,7 +2,6 @@
     font-family: 'Clash Bold';
     src: url(../font/ClashDisplay-Bold.otf);
 }
-
 @font-face {
     font-family: 'Clash Semi';
     src: url(../font/ClashDisplay-Semibold.otf);
@@ -12,26 +11,12 @@
     src: url(../font/ClashDisplay-Light.otf);
 }
 
-h1{
-    font-family: 'Clash semi';
-    color: #1A75BC;
-}
-
 h3{
-    font-family: 'Clash semi';
+    font-family: 'Clash Semi';
     color: #1A75BC;
 }
 
-.status-success{
-    background-color: #eb5757;
-}
 .btn-default-color{
     background-color: #1A75BC;
-    color: white;
-    font-family: Clash Semi;
-}
-
-#navbar {
-    background: #1A75BC;
-    width: 100%;
+    font-family: 'Clash Semi';
 }

@@ -50,3 +50,8 @@ body {
     width: 91vw;
     border-radius: 19px;
 }
+
+#navbar {
+    background: #1A75BC;
+    width: 100%;
+}
