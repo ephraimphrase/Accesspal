@@ -14,35 +14,38 @@
 </head>
 
 <body>
-    <main class="p-3 pt-4">
-        <!-- Welcome section -->
-        <div class="d-flex justify-content-between">
+    <div class="container-fluid">
+        <div class="row justify-content-between">
             <p id="hello" style="font-size: 24px; font-weight: 700;">Hello, <span id="resident-name">Jane</span><img src="../img/image 1.png" alt="waving hand"></p>
+            <p style="font-size: 12px; font-weight: 500;">Schedule your guests with few clicks.</p>
         </div>
-        <p style="font-size: 12px; font-weight: 500;">Schedule your guests with few clicks.</p>
-        <div id="security-card" class="d-flex mt-3 p-3 rounded">
-            <div>
-                <img src="../img/Ellipse 146.png" alt="lady smiling">
+        
+        <div id="security-card" class="row mx-1 p-2 rounded">
+            <div class="col-3">
+                <img class="img-fluid" src="../img/Ellipse 146.png" alt="lady smiling">
             </div>
-            <div class="text-center" style="width: 100%;">
-                <p id="security-name" style="font-size: 18px;">Marge Simpson</p>
-                <p id="security-code" style="font-size: 12px;">999073</p>
-                <p id="security-title" style="font-size: 12px;">Resident Admin of House D30</p>
+            <div class="col-9">
+                <p id="security-name">Marge Simpson</p>
+                <p class="small" id="security-code">999073</p>
+                <p class="small" id="security-title">Resident Admin of House D30</p>
             </div>
         </div>
         <!-- Scan QR section -->
-        <div class="mt-5">
-            <div class="text-center">
-                <img src="../img/qr-scanner.png" alt="QR code scanner" width="250" height="250">
-            </div>     
+        <div class="row justify-content-center">
+            <img class="img-fluid" src="../img/qr-scanner.png" alt="QR code scanner">
         </div>
-
-    </main>
-
-
-
     </div>
 
+
+
+    <div  id ="navbar" class="d-flex  justify-content-between p-3  position-fixed bottom-0">
+        <a href="./resident-homepage.html"><i class='bx bxs-home-alt-2 fs-1 text-white text-opacity-50'></i></a>
+        <a href="./trackGuestPage.html"><i class='bx bx-copy-alt bx-flip-horizontal text-opacity-50 text-white fs-1'></i></a>
+        <a href="./callpage.html"><i class='bx bx-phone-call fs-1 text-white text-opacity-50'></i></a>
+        <a href="./qrcodePage.html"><i class='bx bx-qr-scan fs-1 text-white'></i></a>
+        <a href="./familySetting.html"><i class='bx bx-cog fs-1 text-white text-opacity-50'></i></a>
+    </div>
+    
 </body>
 
 </html>

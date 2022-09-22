@@ -31,8 +31,17 @@ body {
     border-radius: 10px;
 }
 
+#submitButton{
+    font-family: 'Clash Semi';
+}
+
+.btn-submit{
+    color: #1A75BC;
+}
+
 h3,h1{
     font-family: 'Clash Semi';
+    color: #1A75BC
 }
 .form-label{
     font-family: 'Clash Semi';
