@@ -5,7 +5,7 @@ verifyBtn.addEventListener('click', () => {
     otpSuccessMessage.classList.toggle('active')
     setTimeout(() => {
         otpSuccessMessage.classList.add('d-none');
-        window.location.href = '/html/createAccount.html'
+        window.location.href = './createAccount.html'
     }, 2000);
     otpSuccessMessage.classList.remove('d-none');
 })
