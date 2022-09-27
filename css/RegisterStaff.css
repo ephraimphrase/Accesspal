@@ -28,3 +28,9 @@ body {
     color: white;
     font-family: Clash Semi;
 }
+h3{
+    font-family: 'Clash Semi';
+}
+.arrow{
+    margin-left: -15px;
+}
