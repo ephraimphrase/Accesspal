@@ -19,3 +19,34 @@ h1{
 .name{
     font-family:"Clash Semi";
 }
+
+#hello {
+    font-family: 'Clash Bold';
+}
+#estate-card {
+    background-color: #1A75BC;
+    color: white;
+}
+#estate-name {
+    font-family: 'Clash Bold';
+}
+#estate-code {
+    font-family: 'Clash light';
+}
+#estate-title {
+    font-family: 'Clash light';
+}
+#title {
+    font-family: 'Clash Bold';
+}
+#register-guest-btn {
+    font-family: 'Clash Semi';
+    background: #0099D0;
+    color: white;
+    height: 3.5rem;
+    border-radius: 30px;
+}
+#navbar {
+    background: #1A75BC;
+    width: 100%;
+}
