@@ -1,3 +1,4 @@
+
 let otpSuccessMessage = document.querySelector('.otp__success-message');
 let verifyBtn = document.getElementById('verify__btn');
 
