@@ -29,3 +29,8 @@ h1{
 .form-check-input:checked{
     background-color: black;
 }
+.eyeicon{
+    position: absolute;
+    left:85%;
+    top: 60.5%;
+}

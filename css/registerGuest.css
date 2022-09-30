@@ -28,7 +28,7 @@ body {
     background-color: #1A75BC !important;
     color: white;
     font-family: 'Clash Semi';
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #submitButton{
@@ -53,4 +53,19 @@ h3,h1{
 }
 .arrow{
     margin-left: -15px;
+}
+.name{
+    color: #1A75BC;
+    font-family: 'Clash semi';
+}
+.name2{
+    color: #1A75BC;
+}
+.manage{
+    margin-left: -30px;
+}
+.eyeicon{
+    position: absolute;
+    left: 85%;
+    top: 34.5%;
 }

@@ -20,3 +20,7 @@ h3{
     background-color: #1A75BC;
     font-family: 'Clash Semi';
 }
+.Details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
