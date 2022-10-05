@@ -50,6 +50,9 @@ body {
     border-radius: 30px;
 }
 
+.removeBtn{
+    background-color: #1A75BC;
+}
 #navbar {
     background: #1A75BC;
     width: 100%;
