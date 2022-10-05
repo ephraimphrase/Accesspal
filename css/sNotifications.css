@@ -27,3 +27,7 @@ body {
 h4,h6{
     font-family: Clash Semi;
 }
+
+.trash__btn{
+    border: none;
+}
