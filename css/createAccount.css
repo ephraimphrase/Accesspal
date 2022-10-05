@@ -1,3 +1,7 @@
+html,body{
+   overflow: hidden;
+}
+
 .button{
     background-color: #1A75BC;
     font-family: 'Clash Semi';
@@ -33,4 +37,5 @@ h1{
     position: absolute;
     left:85%;
     top: 60.5%;
+    display: none;
 }

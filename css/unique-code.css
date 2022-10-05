@@ -3,6 +3,7 @@
     src: url(../font/ClashDisplay-Semibold.otf);
 }
 body {
+    overflow:hidden;
     font-family: sans-serif;
 }
 h2 {
