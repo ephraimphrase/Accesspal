@@ -11,6 +11,10 @@
     font-family: 'Clash light';
     src: url(../font/ClashDisplay-Light.otf);
 }
+
+html,body{
+    overflow : hidden;
+ }
 .topdiv{
     background-color: #1A75BC;
     /* height: 150px; */
